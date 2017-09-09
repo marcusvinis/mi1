@@ -1,6 +1,6 @@
 //Inclui a sigla do console nos posts, no quadro acima da contagem de comentários
 function MontaIdentificacaoConsole(){
-    if($('#tilebar'){
+    if($('#tilebar')){
 	    
 	$('#tilebar').prepend("<a class='bigtag' href='#'>"OKOK"</a>");
 	    
