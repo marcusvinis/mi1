@@ -1,6 +1,6 @@
 //Inclui a sigla do console nos posts, no quadro acima da contagem de comentários
 function MontaIdentificacaoConsole(){
-    if($('#tilebar')){
+    if($('#tilebar').length==0){
 	var listaTags = $('#marcadores_consoles li');
 	var console = '';
 	jQuery.each(listaTags,function(i,tag){
